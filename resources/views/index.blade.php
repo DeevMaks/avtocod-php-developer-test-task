@@ -6,8 +6,6 @@
 
 @section('main_content')
 
-    <h1 class="text-center">
-        You'r welcome!
-    </h1>
+    <messages_list></messages_list>
 
 @endsection

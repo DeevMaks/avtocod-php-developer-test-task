@@ -5,14 +5,16 @@
 </head>
 
 <body>
+    <div id="app">
 
-@include('layouts.partials.main_header')
+        @include('layouts.partials.main_header')
 
-@yield('main_content')
+        @yield('main_content')
 
-@section('scripts')
-    @include('layouts.partials.scripts')
-@show
+        @section('scripts')
+            @include('layouts.partials.scripts')
+        @show
 
+    </div>
 </body>
 </html>
